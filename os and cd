@@ -34,3 +34,21 @@ if(i<n)
 printf("\nMemory is Full, Remaining Processes cannot be accomodated");
 printf("\n\nTotal Internal Fragmentation is %d",tif+ef);
 }
+
+
+
+Output:
+Enter the total memory available (in Bytes) -- 100
+Enter the block size (in Bytes) -- 25
+Enter the number of processes -- 4
+Enter memory required for process 1 (in Bytes)-- 20
+Enter memory required for process 2 (in Bytes)-- 15
+Enter memory required for process 3 (in Bytes)-- 20
+Enter memory required for process 4 (in Bytes)-- 10
+No. of Blocks available in memory -- 4
+PROCESS  	MEMORY REQUIRED  	ALLOCATED   INTERNAL  FRAGMENTATION
+1		 20 				YES 		5
+2 		15 				YES	 	10
+3		 20 				YES		 5
+4 		10				 YES		 15
+Total Internal Fragmentation is 35
